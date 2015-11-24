@@ -83,13 +83,7 @@
     [tabbar setItems:array];
     
     tabbar.delegate = self;
-    
-    NSString *str = @"你好";
-    
-    if ([str containsString:@"你"]) {
-        NSLog(@"包含");
-    };
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
