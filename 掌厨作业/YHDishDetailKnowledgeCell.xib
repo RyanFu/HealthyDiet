@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="530" id="KGk-i7-Jjw" customClass="YHDishDetailKnowledgeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="530"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="529"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="detail_material_bg" translatesAutoresizingMaskIntoConstraints="NO" id="EqC-EH-L65">
+                        <rect key="frame" x="59" y="21" width="257" height="189"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="257" id="VAm-IA-Pfb"/>
+                            <constraint firstAttribute="height" constant="189" id="v7U-Gv-SA9"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iG-SC-gce">
+                        <rect key="frame" x="67" y="35" width="240" height="163"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="1xJ-tc-aJU"/>
+                            <constraint firstAttribute="height" constant="163" id="qKx-Z6-LTi"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="detail_scotchtape" translatesAutoresizingMaskIntoConstraints="NO" id="dUJ-Pl-Gbs">
+                        <rect key="frame" x="105" y="28" width="164" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="164" id="8nc-MU-PbE"/>
+                            <constraint firstAttribute="height" constant="21" id="HCH-u0-Jro"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="制作指导" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlr-Pw-KBX">
+                        <rect key="frame" x="67" y="429" width="83" height="21"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="0.83999999999999997" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="0.68000000000000005" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivC-H6-yXC">
+                        <rect key="frame" x="67" y="218" width="240" height="185"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="d68-iF-apv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3J-MW-xui">
+                        <rect key="frame" x="67" y="464" width="240" height="53"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="4iG-SC-gce" secondAttribute="centerX" constant="0.5" id="6df-aL-q7j"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ivC-H6-yXC" secondAttribute="trailing" constant="60" id="BeD-GZ-4YR"/>
+                    <constraint firstAttribute="centerY" secondItem="EqC-EH-L65" secondAttribute="centerY" constant="72" id="CRW-dG-pkY"/>
+                    <constraint firstItem="dUJ-Pl-Gbs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="19" id="I47-7e-UaZ"/>
+                    <constraint firstItem="dUJ-Pl-Gbs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="97" id="RVl-Ky-dpv"/>
+                    <constraint firstItem="dUJ-Pl-Gbs" firstAttribute="centerX" secondItem="4iG-SC-gce" secondAttribute="centerX" id="WvW-vJ-6CO"/>
+                    <constraint firstItem="ivC-H6-yXC" firstAttribute="top" secondItem="4iG-SC-gce" secondAttribute="bottom" constant="20" id="cE1-f4-2QR"/>
+                    <constraint firstAttribute="centerY" secondItem="4iG-SC-gce" secondAttribute="centerY" constant="71" id="cVI-fW-ZMg"/>
+                    <constraint firstAttribute="centerX" secondItem="EqC-EH-L65" secondAttribute="centerX" id="gwL-m7-Cgn"/>
+                    <constraint firstItem="ivC-H6-yXC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="59" id="mle-x7-XPv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="contentImageView" destination="4iG-SC-gce" id="pys-uA-Izf"/>
+                <outlet property="descriptionLabel" destination="ivC-H6-yXC" id="QMc-fM-lnb"/>
+                <outlet property="guideLabel" destination="O3J-MW-xui" id="EHo-f8-tnx"/>
+            </connections>
+            <point key="canvasLocation" x="151.5" y="268"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="detail_material_bg" width="250" height="184"/>
+        <image name="detail_scotchtape" width="224" height="28"/>
+    </resources>
+</document>
